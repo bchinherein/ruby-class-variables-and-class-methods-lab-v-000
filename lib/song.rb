@@ -49,7 +49,7 @@ class Song
         artist_count[artist] = 1
       end #if artist_count.has_key?
     end #@@artists.each
-    artist_count = {}
+    artist_count
   end #def self.artist_count
 
 end
