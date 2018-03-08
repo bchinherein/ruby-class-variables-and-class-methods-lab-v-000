@@ -36,10 +36,10 @@ class Song
         genre_count[genre] += 1
       else
         genre_count[genre] = 1
-      end
-    end
+      end #if genre_count.has_key?
+    end #@@genres.each
     genre_count
   end #def self.genre_count
-  
+
 
 end
