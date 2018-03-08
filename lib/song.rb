@@ -40,6 +40,6 @@ class Song
     end
     genre_count
   end #def self.genre_count
-  #same value is being used. need to create unique value
+  
 
 end
